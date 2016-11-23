@@ -1,6 +1,6 @@
 {
-  "name": "pixi-tween",
-  "version": "0.2.0",
+  "name": "pixi-tween.js",
+  "version": "0.2.1",
   "description": "pixi-tween is a plugin for Pixi.js v4.1 or higher to create ...",
   "main": "./build/pixi-tween.js",
   "author": "Nazariglez <nazari.nz@gmail.com> (http://www.nazariglez.com)",

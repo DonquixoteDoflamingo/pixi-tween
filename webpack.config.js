@@ -12,10 +12,14 @@ module.exports = {
   devtool: 'source-map',
   entry: ENTRY,
   output: {
-    filename: 'build/' + PLUGIN_NAME + '.js'
+    filename: 'build/' + PLUGIN_NAME
   },
   resolve: {
     extensions: ['', '.js']
+  },
+  devServer: {
+    host: '0.0.0.0',
+    port: 8080
   },
   module: {
     loaders: [
